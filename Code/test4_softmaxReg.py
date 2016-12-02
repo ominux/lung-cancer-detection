@@ -28,6 +28,8 @@ import sys
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
+mnist
+
 print(mnist.train.next_batch(1))
 
 import tensorflow as tf
@@ -41,7 +43,7 @@ b = tf.Variable(tf.zeros([10]))
 y = tf.matmul(x, W) + b
 
 # Define loss and optimizer
-y_ = tf.placeholder(tf.float32, [None, 10])
+y_ = tf.placeholder(tf.float32, [None, 10]) #actual values
 
 # The raw formulation of cross-entropy,
 #

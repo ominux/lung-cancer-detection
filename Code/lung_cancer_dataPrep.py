@@ -17,8 +17,9 @@ mat_files.keys() #keys within the .mat file: ['__version__', 'candidates', '__he
 
 mat_files_cand = mat_files['candidates']
 
+data = np.array(mat_files_cand)
 
-mat_files_cand[0,0]
+mat_files_cand[0,2]
 
 
 a = np.array([1,2,3])
