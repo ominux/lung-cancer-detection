@@ -70,7 +70,7 @@ for _ in range(1000):
 
 correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
 
-sess.run(correct_prediction)
+#sess.Print(correct_prediction, [correct_prediction], message = "please print")
 
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 print(sess.run(accuracy, feed_dict={x: mnist.test.images,
