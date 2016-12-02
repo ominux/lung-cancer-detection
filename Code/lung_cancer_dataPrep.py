@@ -16,8 +16,20 @@ mat_files
 mat_files.keys() #keys within the .mat file: ['__version__', 'candidates', '__header__', '__globals__'], only candidates matter!
 
 mat_files_cand = mat_files['candidates']
-print mat_files_cand
-print mat_files_cand.dtype
+
+
+mat_files_cand[0,0]
+
+
+a = np.array([1,2,3])
+a
+
+
+print mat_files_cand.dtype #produces sth interesting
+
+
+
+print tip['LABEL']
 
 mat_files_cand[40]
 
