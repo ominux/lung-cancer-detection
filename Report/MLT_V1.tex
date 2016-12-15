@@ -82,7 +82,7 @@
 
 \section{Method}
 
-\citep{massey}
+
 
 \section{Data}
 
@@ -96,6 +96,7 @@ HU = 1000 \frac{\mu - \mu_{water}}{\mu_{water} - \mu{air}}
 where $\mu_{water}$ and $\mu{air}$ are the linear atenuation coefficients of water and air \cite{hounsfield1980computed}. The linear transformation was applied to guarantee non-negative values which is necessary for training our model. Furthermore, each image was hand-labeled by physicians if the image contains a nodule or not. A nodule is a positive lung cancer observation which can occure in different types. The types are further discussed in section \ref{Nodule types}. Each observation is labeled with either a 1 (true nodule) or a 0 (false nodule). 
 Additional information for each obervation is a nodule ID. Since a true nodule can occure in multiple observations, this ID allows to identify the unique nodules. \\
 The data set is highly unbalanced: %TODO how many true and false observations?
+%TODO differentiate: most of the scans are overall true, but most of the observations are negative
 
 
 
