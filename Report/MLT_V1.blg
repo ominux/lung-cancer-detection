@@ -7,9 +7,9 @@ I couldn't open style file natbib.bst
  :                 }
 I'm skipping whatever remains of this command
 I found no style file---while reading file MLT_V1.aux
-You've used 2 entries,
+You've used 1 entry,
             0 wiz_defined-function locations,
-            87 strings with 530 characters,
+            86 strings with 524 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
